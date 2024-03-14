@@ -3,6 +3,6 @@ function insert_Row() {
 	let table = document.getElementById('sampleTable');
 
     let row = table.insertRow(0);
-	   row.insertCell(0).innerHTML = "New Cell 1";
-	   row.insertCell(1).innerHTML = "New Cell 2";
+	   row.insertCell(0).innerHTML = "New Cell1";
+	   row.insertCell(1).innerHTML = "New Cell2";
 }
