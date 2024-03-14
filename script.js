@@ -3,7 +3,7 @@ function insert_Row() {
 	let table = document.getElementById('sampleTable');
 	let btn = document.querySelector('input');
 
-	btn.addEventListener('click', addRow)
+	// btn.addEventListener('click', addRow)
 
    function addRow() {
     let row = table.insertRow(0);
