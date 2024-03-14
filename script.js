@@ -1,6 +1,6 @@
 function insert_Row() {
     //Write your code here
-	let table = document.getElementById();
+	let table = document.getElementById('sampleTable');
 	let btn = document.querySelector('input');
 
 	btn.addEventListener('click', addRow)
